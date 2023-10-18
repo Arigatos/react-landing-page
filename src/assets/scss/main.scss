@@ -1,6 +1,13 @@
-@import './default.scss';
+// Generic
+@import './default';
+@import './helper';
+@import './variables';
 
 // Pages
-@import './pages/landing.scss';
+@import './pages/landing';
 
 // Components
+@import './components/preview-image';
+@import './components/circle';
+@import './components/navigation';
+@import './components/signup-email.scss';
